@@ -1,7 +1,7 @@
-1. kubectl get nodes [to get running nodes]
-2. kubectl config get contexts [to check which cluster is selected]
-3. kubectl config use-context <cluster-name> [to switch to desired cluster]
-4. kubectl run <pod-name> --image=<image:name> [to create a pod]
-5. kubectl delete pod <podname> [to delete pod]
-6. kubectl explain pod <h1>[to get pod version detail]<h1/>
+1. kubectl get nodes <p>[to get running nodes]<p/>
+2. kubectl config get contexts <p>[to check which cluster is selected]<p/>
+3. kubectl config use-context <cluster-name> <p>[to switch to desired cluster]<p/>
+4. kubectl run <pod-name> --image=<image:name> <p>[to create a pod]<p/>
+5. kubectl delete pod <podname> <p>[to delete pod]<p/>
+6. kubectl explain pod <p>[to get pod version detail]<p/>
 

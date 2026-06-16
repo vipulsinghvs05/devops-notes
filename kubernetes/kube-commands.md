@@ -3,5 +3,5 @@
 3. kubectl config use-context <cluster-name> <p>[to switch to desired cluster]<p/>
 4. kubectl run <pod-name> --image=<image:name> <p>[to create a pod]<p/>
 5. kubectl delete pod <podname> <p>[to delete pod]<p/>
-6. kubectl explain pod <p>[to get pod version detail]<p/>
-
+6. kubectl explain pod <p>[to get pod version detail]</p>
+7. kubectl describe pod <pod-name> <p>[to check error of the pod]</p>
